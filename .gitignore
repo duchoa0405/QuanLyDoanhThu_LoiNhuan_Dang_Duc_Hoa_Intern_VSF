@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environment variables
+.env
+.env.*
+
+# Local scratch & temp files
+scratch/
+*.temp
+.tempmediaStorage/
+.user_uploaded/
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# =======================================================
+# Local Personal Vietnamese Documentation (Do NOT push to Git)
+# =======================================================
+*_vi.*
+*_VI.*
+docs/vi/
+docs_vi/
+docs/C4_AND_ARC42_GUIDE.md
+*Bản đồ*.xmind
+*quần áo*.xmind
+*_TASKS.md
+PROJECT_STATUS_AUDIT.md
