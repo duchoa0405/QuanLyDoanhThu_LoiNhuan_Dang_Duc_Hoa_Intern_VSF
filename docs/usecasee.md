@@ -11,10 +11,10 @@ Sơ đồ thể hiện sự tương tác giữa 2 Tác nhân người dùng (Sal
 
 ![Multi-Channel Revenue Use Case Diagram](screenshots/usecase_multi_channel_revenue.png)
 
-> **Quy ước trong sơ đồ:**
-> * **Hình khối màn hình:** Phân chia ranh giới chức năng theo từng không gian làm việc của người dùng.
-> * **Quan hệ `<<include>>`:** Chức năng bắt buộc chạy kèm tự động (Ví dụ: Tiếp nhận đơn bắt buộc đi kèm Ước tính phí sàn; Cập nhật đơn Delivered bắt buộc đi kèm Ghi nhận doanh thu).
-> * **Quan hệ `<<extend>>`:** Nhánh chức năng mở rộng/tùy chọn theo điều kiện phát sinh (Ví dụ: Đối soát tiền thực nhận khi có chênh lệch; Lọc đa chiều & Drilldown xuất CSV từ Thẻ KPI).
+> **Quy ước sơ đồ (Ngắn gọn):**
+> * **Khung màn hình:** Không gian làm việc riêng của từng vai trò.
+> * **`<<include>>` (Bắt buộc):** Luồng chạy tự động kèm theo (Nhập đơn $\rightarrow$ tự tính phí; Giao thành công $\rightarrow$ tự ghi nhận doanh thu).
+> * **`<<extend>>` (Tùy chọn):** Thao tác mở rộng khi có nhu cầu (Chỉnh sửa tiền khi có lệch sao kê; Lọc dữ liệu; Xuất file CSV).
 
 ---
 
