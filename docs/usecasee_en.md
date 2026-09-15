@@ -85,9 +85,9 @@ The matrix defines **Which Feature is performed by Which Role on Which Screen**:
 | Business Operation | UI Screen Workspace | Sales & Ops Staff | Finance Manager | Shop Owner |
 |---|---|:---:|:---:|:---:|
 | **Create and edit orders** | Screen 1 (Orders) | Full Access | Read-Only | Full Access |
-| **Update status (Shipped/Delivered/Cancel)** | Screen 1 (Orders) | Full Access | Read-Only | Full Access |
+| **Update status (Shipped/Delivered/Cancel)** | Screen 1 (Orders) | Full Access | Read-Only | Approval |
 | **View detailed fee deduction breakdown** | Screen 2 (Settlement) | No Access | Full Access | Full Access |
-| **Reconcile and confirm actual payout** | Screen 2 (Settlement) | No Access | Full Access | Full Access |
+| **Reconcile and confirm actual payout** | Screen 2 (Settlement) | No Access | Full Access | Approval |
 | **View 3 KPI cards & Revenue charts** | Screen 3 (Dashboard) | No Access | Full Access | Full Access |
 | **Filter revenue & Export CSV reports** | Screen 3 (Dashboard) | No Access | Full Access | Full Access |
 | **Manage SKU catalog and retail prices** | Modal (Catalog) | Full Access | Read-Only | Full Access |
